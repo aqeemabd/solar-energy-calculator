@@ -22,7 +22,7 @@ Copy and paste **'.env.example'** file and rename it to **'.env'**
 **Step 5:**
  1. Change the variable inside the **'.env'** file based on your local database credentials setup
  2. Open your local database
- 3. Run the SQL below to create 'savings' table inside your database (**variable is correct inside the '.env' file**)
+ 3. Run the SQL below to create 'savings' table inside your database (**make sure variable is correct inside the '.env' file**)
     ~~~~sql
     CREATE TABLE IF NOT EXISTS `savings` (
     `ID` int NOT NULL AUTO_INCREMENT,
