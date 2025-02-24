@@ -1,6 +1,12 @@
 # solar-energy-calculator
 
 # Getting started
+
+**Requirements**
+  1. Code editor
+  2. Node JS
+  3. Local web server **(ex: Laragon)**
+
 **Step 1:**
 Head to your terminal and paste the following command **'git clone https://github.com/aqeemabd/solar-energy-calculator.git'**
 
@@ -16,7 +22,7 @@ Copy and paste **'.env.example'** file and rename it to **'.env'**
 **Step 5:**
  1. Change the variable inside the **'.env'** file based on your local database credentials setup
  2. Open your local database
- 3. Run the SQL below to create 'savings' table inside your database (make sure your **'DB_NAME'** is correct)
+ 3. Run the SQL below to create 'savings' table inside your database (**variable is correct inside the '.env' file**)
     ~~~~sql
     CREATE TABLE IF NOT EXISTS `savings` (
     `ID` int NOT NULL AUTO_INCREMENT,
